@@ -66,7 +66,7 @@ For a new paid operation, first prepare a request:
 /happyhorse-by-ace:create A gentle tracking shot through a bright spring garden.
 ```
 
-Review the model, fields, price and requested spend before confirming submission. A media service operation and the LLM orchestrating it may both consume credits according to their respective accounts. The request is submitted once; keep the returned `task_id`. Inspect mcp_task_guidance and the returned state/error. Wait between polls; return the final video_url only on terminal success. A green tool call is not proof of generation completion. Use the same ID for later checks. Do not rerun `create` because a result is pending.
+Review the model, fields, price and requested spend before confirming submission. A media service operation and the LLM orchestrating it may both consume credits according to their respective accounts. The request is submitted once; keep the returned `task_id`. Inspect mcp_task_polling and the returned state/error. Wait between polls; return the final video_url only on terminal success. A green tool call is not proof of generation completion. Use the same ID for later checks. Do not rerun `create` because a result is pending.
 
 No generated-media example in this repository is presented as a completed live run. Local mock checks do not prove real generation, final media retrieval or billing.
 

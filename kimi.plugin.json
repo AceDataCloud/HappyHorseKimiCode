@@ -1,0 +1,43 @@
+{
+  "name": "happyhorse-by-ace",
+  "version": "0.1.0",
+  "description": "HappyHorse video generation and same-task results in Kimi Code, provided by Ace Data Cloud.",
+  "keywords": [
+    "happyhorse",
+    "happyhorse",
+    "video",
+    "video generation",
+    "kimi-code",
+    "acedatacloud"
+  ],
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/HappyHorseKimiCode",
+  "license": "MIT",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "mcpServers": {
+    "happyhorse": {
+      "transport": "http",
+      "url": "https://happyhorse.mcp.acedata.cloud/mcp",
+      "bearerTokenEnvVar": "ACEDATACLOUD_API_TOKEN",
+      "enabledTools": [
+        "happyhorse_list_models",
+        "happyhorse_generate_video",
+        "happyhorse_generate_video_from_image",
+        "happyhorse_generate_video_from_references",
+        "happyhorse_edit_video",
+        "happyhorse_get_task"
+      ]
+    }
+  },
+  "interface": {
+    "displayName": "HappyHorse by Ace Data Cloud",
+    "shortDescription": "HappyHorse video tools and same-task results",
+    "longDescription": "Independent HappyHorse integration maintained by Ace Data Cloud. Bring your own Ace API Token. Generation and editing may incur charges; query an existing task without resubmitting it. Not an official HappyHorse or Moonshot integration.",
+    "developerName": "Ace Data Cloud",
+    "websiteURL": "https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=happyhorse_kimi_readme_key"
+  }
+}

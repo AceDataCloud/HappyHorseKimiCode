@@ -1,0 +1,21 @@
+{
+  "version": "2",
+  "plugins": [
+    {
+      "id": "happyhorse-by-ace",
+      "displayName": "HappyHorse by Ace Data Cloud",
+      "version": "0.1.0",
+      "description": "HappyHorse video generation and same-task results in Kimi Code, provided by Ace Data Cloud.",
+      "homepage": "https://github.com/AceDataCloud/HappyHorseKimiCode",
+      "keywords": [
+        "happyhorse",
+        "happyhorse",
+        "video",
+        "video generation",
+        "kimi-code",
+        "acedatacloud"
+      ],
+      "source": "https://github.com/AceDataCloud/HappyHorseKimiCode/releases/tag/v0.1.0"
+    }
+  ]
+}
